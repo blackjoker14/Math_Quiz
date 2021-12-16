@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="game.css">
+    <title>
+        Math quiz
+    </title>
+</head>
+<body>
+    <br>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4><span id="player2_score"></span>
+    
+        <div class="login-box">
+            
+          <h1>Math Quiz </h1>
+          <div class="output"><h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"><br>
+            <!--<input type="text" placeholder="Answer" id="Answer" size="10">
+            <button id="Check" onclick="check()">Check</button>
+        </div>-->
+    </div>  
+        <h3> Number 1</h3>
+          <div class="textbox">
+            
+            <input id="player1_name_input" type="text"  placeholder="Number">
+          </div>
+          <h3> Number 2 </h3>
+          <div class="textbox">
+            
+            <input id="player2_name_input" type="text" placeholder="Number">
+          </div>
+        
+          
+          
+          <button onclick="send()" >Send</button>
+        </div>
+        <script src="game.js"></script>
+          
+
+
+       <!-- <div class="login-box">
+            <h1>Math Quiz</h1>
+            
+            
+                <h3> Player 1 login for the game </h3><br>
+            
+            <div class="textbox">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="" placeholder="Username" value="">
+                
+            </div>
+            <br><br>
+            <div class="textbox">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="" placeholder="Username" value="">
+            </div>
+            <div class="textbox">
+                <input type="password" name="" placeholder="Password" value="">
+            </div>
+            <input type="button" class="btn btn-primary" name="" value="Login">
+
+        </div> -->    
+
+          
+
+
+        <!--
+         <center>   
+            <h1>Math Quiz</h1><br><br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+           <h3> Player 1 login</h3><br>
+           <label>USERNAME : </label>
+           <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 name"></div>
+          <br><br><br>	
+         <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+              <h3> Player 2 login </h3><br>
+              <label>USERNAME : </label>
+              <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 name"></div><br><br>
+         <button style="width:30%;" class="btn btn-primary" onclick="addUser()">Sign in</button>
+           
+        </div>
+    </center>
+    -->
+      
+      
+      
+      
+</body>
+</html>
